@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(87, 185, 209);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    flex-direction: column;
+}
+
+h1 {
+    color: hwb(253 4% 16% / 0.438);
+}
+
+.sandwich {
+    margin-top: 30px;
+    position: center;
+}
+
+.custom-select {
+    position: center;
+    display: inline-block;
+    width: 200px;
+}
+
+.custom-select select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid hsl(271, 66%, 28%);
+    border-radius: 5px;
+    appearance: none;
+    background: hsl(175, 94%, 50%) url('data:image/svg+xml;charset=UTF-8,%3Csvg xmlns%3D%27http%3A//www.w3.org/2000/svg%27 width%3D%27292.4%27 height%3D%27292.4%27 viewBox%3D%270 0 292.4 292.4%27%3E%3Cpath fill%3D%27%23333%27 d%3D%27M287 69.4c7.6 7.6 7.6 19.8 0 27.4L163.8 219.8c-7.6 7.6-19.8 7.6-27.4 0L5.4 96.8c-7.6-7.6-7.6-19.8 0-27.4s19.8-7.6 27.4 0L150 186l117.6-116.6c7.7-7.6 19.8-7.6 27.4 0z%27/%3E%3C/svg%3E') no-repeat 95% 50%;
+    background-size: 12px;
+    cursor: pointer;
+}
+
+.custom-select select:focus {
+    outline: none;
+    border-color: #66afe9;
+    box-shadow: 0 0 2px #66afe9;
+}

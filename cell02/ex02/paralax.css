@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+    width: auto;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    height: auto;
+    width: auto; /* Define a altura de cada seção parallax */
+/* Faz com que o fundo fique fixo ao rolar */
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(139, 60, 60);
+    text-align: center;
+    font-size: 18px;
+}
+
+.parallax1 {
+    height: 100%;
+    width: 100%;
+    background-image: url("Samcat.jpeg"); /* Caminho relativo */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    height: 100%;
+    width: 100%;
+    background-image: url("Paçoca.jpeg"); /* Caminho relativo */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-block {
+    background-color: aqua;
+    background-repeat: no-repeat;
+    height:18px;
+    width: 100%;
+    color: red;
+    font-size: 18px;
+    text-align: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para melhor legibilidade do texto */
+    padding: 20px;
+    border-radius: 10px;
+}
